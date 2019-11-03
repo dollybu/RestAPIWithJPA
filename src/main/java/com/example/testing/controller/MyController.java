@@ -18,6 +18,6 @@ public class MyController {
 	public String test(@PathVariable("name") String nameValue) {
 		
 	   
-		return "My name is "+nameValue;
+		return "My name is ="+nameValue;
 	}
 }
